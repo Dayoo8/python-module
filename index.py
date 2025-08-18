@@ -1,29 +1,28 @@
-num1 = 23
-num2 = 12
-operation = "+"
-
-if operation == "+":
-    result = num1 + num2
-
-
-print(f"{num1} {operation} {num2} = {result}")
-
-operation = '*'
-
-if operation == "*":
-    result = num1 * num2
+def calculate_discount(price, discount_percent):
     
-print(f"{num1} {operation} {num2} = {result}")
+    if discount_percent >=20:
+        discount_amount = price * (discount_percent / 100)
+        final_price = price - discount_amount
+        return final_price
+    else:
+        return price
 
-operation = "-"
-
-if operation == "-":
-    result = num1 - num2
-    
-print(f"{num1} {operation} {num2} = {result}")
+print(calculate_discount(200, 30))
+print(calculate_discount(200, 15))    
     
     
     
     
-
     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+
