@@ -8,5 +8,6 @@ def calculate_discount(price, discount_percent):
         return price
 
 print(calculate_discount(200, 30))
-print(calculate_discount(200, 15))    
+print(calculate_discount(200, 20))    
+
     
